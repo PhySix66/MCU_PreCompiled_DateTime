@@ -5,23 +5,23 @@ This is simple argumentless cli code that has only one function.
 If called this "spits out" the current date and time values in multiple formats.
 I've mede this specialy for my MCU(AVR) projects to always get an Updated Date/Time value.
 
-Add to Makefile:
-...
-all: begin version gccversion sizebefore build sizeafter end
-...
-VERSION_FILE = version.h
+Add to Makefile:	
+...	
+all: begin version gccversion sizebefore build sizeafter end	
+...	
+VERSION_FILE = version.h	
 
-version: $(VERSION_FILE)
+version: $(VERSION_FILE)	
 	@echo '#ifndef		_VERSION_H_' > $(VERSION_FILE) 
-	@echo '#define		_VERSION_H_' >> $(VERSION_FILE)
+	@echo '#define		_VERSION_H_' >> $(VERSION_FILE)	
 	@echo '#include	<avr/pgmspace.h>' >> $(VERSION_FILE) 
-	@echo '//data from date_precompiled.exe' >> $(VERSION_FILE)
-	@DateTime_PreCompiled >> $(VERSION_FILE)
-	@echo '#endif' >> $(VERSION_FILE)
+	@echo '//data from date_precompiled.exe' >> $(VERSION_FILE)	
+	@DateTime_PreCompiled >> $(VERSION_FILE)	
+	@echo '#endif' >> $(VERSION_FILE)	
 
-.PHONY:	version.h
+.PHONY:	version.h	
 
-OutPut:
+OutPut:	
 
 #ifndef		_VERSION_H_
 #define		_VERSION_H_
