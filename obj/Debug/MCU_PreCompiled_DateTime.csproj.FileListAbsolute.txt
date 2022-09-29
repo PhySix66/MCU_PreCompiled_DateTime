@@ -1,0 +1,7 @@
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\bin\Debug\MCU_PreCompiled_DateTime.exe.config
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\bin\Debug\MCU_PreCompiled_DateTime.exe
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\bin\Debug\MCU_PreCompiled_DateTime.pdb
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\obj\Debug\MCU_PreCompiled_DateTime.csprojAssemblyReference.cache
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\obj\Debug\MCU_PreCompiled_DateTime.csproj.CoreCompileInputs.cache
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\obj\Debug\MCU_PreCompiled_DateTime.exe
+R:\Progs\Visual Studio\MCU_PreCompiled_DateTime\obj\Debug\MCU_PreCompiled_DateTime.pdb
