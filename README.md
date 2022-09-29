@@ -6,6 +6,7 @@ If called this "spits out" the current date and time values in multiple formats.
 I've mede this specialy for my MCU(AVR) projects to always get an Updated Date/Time value.
 
 Add to Makefile:
+```
 ...
 all: begin version gccversion sizebefore build sizeafter end	
 ...
@@ -20,9 +21,9 @@ version: $(VERSION_FILE)
 	@echo '#endif' >> $(VERSION_FILE)	
 
 .PHONY:	version	
-
+```
 OutPut:	
-
+```
 #ifndef		_VERSION_H_
 #define		_VERSION_H_
 #include	<avr/pgmspace.h>
@@ -66,3 +67,4 @@ OutPut:
 #define PRECOMPILED_TIME_BCD_ARRAY	{0x35,0x12,0x12}
 #define PRECOMPILED_DT_BCD_ARRAY	{0,0,0,0x35,0x12,0x12,0x04,0x29,0x09,{ .i = 0x2022}}
 #endif
+```
